@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Register - Art & Craft Workshop</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>📝 Register for a Workshop</h1>
+    <p>Join our vibrant sessions and unleash your creativity!</p>
+  </header>
+
+  <main class="form-section">
+    <div class="form-card">
+      <h2>🎨 Participant Registration</h2>
+      <form action="#" method="POST" class="form-style">
+        <label><span>👤</span> Full Name:</label>
+        <input type="text" name="name" placeholder="Enter your name" required />
+
+        <label><span>📧</span> Email:</label>
+        <input type="email" name="email" placeholder="Enter your email" required />
+
+        <label><span>📱</span> Mobile Number:</label>
+        <input type="text" name="mobile" maxlength="10" placeholder="10-digit number" required />
+
+        <label><span>🎯</span> Select Workshop:</label>
+        <select name="event" required>
+          <option value="">-- Choose Workshop --</option>
+          <option value="Watercolor Basics">Watercolor Basics</option>
+          <option value="Origami Fun">Origami Fun</option>
+          <option value="Clay Pottery">Clay Pottery</option>
+          <option value="Embroidery Magic">Embroidery Magic</option>
+          <option value="Calligraphy Art">Calligraphy Art</option>
+        </select>
+
+        <button type="submit" class="submit-btn">Submit Registration</button>
+      </form>
+    </div>
+  </main>
+
+</body>
+</html>
